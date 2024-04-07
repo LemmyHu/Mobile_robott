@@ -1,0 +1,31 @@
+[0.163s] Invoking command in '/home/lemmy/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lemmy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/lemmy/robotis_ws/install/dynamixel_sdk
+[0.658s] -- The C compiler identification is GNU 11.4.0
+[1.029s] -- The CXX compiler identification is GNU 11.4.0
+[1.076s] -- Detecting C compiler ABI info
+[1.540s] -- Detecting C compiler ABI info - done
+[1.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.572s] -- Detecting C compile features
+[1.573s] -- Detecting C compile features - done
+[1.588s] -- Detecting CXX compiler ABI info
+[2.083s] -- Detecting CXX compiler ABI info - done
+[2.112s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.113s] -- Detecting CXX compile features
+[2.115s] -- Detecting CXX compile features - done
+[2.160s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.393s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.764s] -- Configuring done
+[4.810s] -- Generating done
+[4.817s] -- Build files have been written to: /home/lemmy/robotis_ws/build/dynamixel_sdk
+[4.833s] Invoked command in '/home/lemmy/robotis_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lemmy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/lemmy/robotis_ws/install/dynamixel_sdk
+[4.843s] Invoking command in '/home/lemmy/robotis_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lemmy/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/lemmy/robotis_ws/build/dynamixel_sdk -- -j4 -l4
+[5.128s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[5.133s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[5.148s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[5.975s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[6.647s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[6.656s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[7.173s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[11.172s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[11.569s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[11.711s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[12.166s] [100%] Built target dynamixel_sdk

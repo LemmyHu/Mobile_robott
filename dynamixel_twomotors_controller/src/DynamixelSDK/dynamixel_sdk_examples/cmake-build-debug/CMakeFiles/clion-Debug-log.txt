@@ -1,4 +1,4 @@
-/home/lemmy/Documents/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples -B /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
+/home/lemmy/Documents/clion/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples -B /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -41,7 +41,7 @@ CMake Deprecation Warning:
 -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
 -- Added test 'copyright' to check source files copyright and LICENSE
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
--- Configured cppcheck include dirs: /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+-- Configured cppcheck include dirs: /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/include
 -- Configured cppcheck exclude dirs and/or files: 
 -- Added test 'cpplint' to check C / C++ code against the Google style
 -- Configured cpplint exclude dirs and/or files: 
@@ -49,6 +49,6 @@ CMake Deprecation Warning:
 -- Added test 'uncrustify' to check C / C++ code style
 -- Configured uncrustify additional arguments: 
 -- Added test 'xmllint' to check XML markup files
--- Configuring done (13.0s)
+-- Configuring done (14.3s)
 -- Generating done (0.1s)
--- Build files have been written to: /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
+-- Build files have been written to: /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug

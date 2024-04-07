@@ -1,0 +1,8 @@
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:[m[K In lambda function:
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:127:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct dynamixel_sdk_custom_interfaces::srv::GetVelocity_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct dynamixel_sdk_custom_interfaces::srv::GetVelocity_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvelocity[m[K’; did you mean ‘[01m[Kvelocities[m[K’?
+  127 |                 response->[01;31m[Kvelocity[m[K = present_velocity;
+      |                           [01;31m[K^~~~~~~~[m[K
+      |                           [32m[Kvelocities[m[K
+gmake[2]: *** [CMakeFiles/read_write_node.dir/build.make:76: CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/read_write_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/install_manifest.txt")
+set(install_manifest "/home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

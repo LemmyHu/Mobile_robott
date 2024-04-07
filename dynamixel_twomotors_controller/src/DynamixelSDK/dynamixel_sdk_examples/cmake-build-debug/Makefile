@@ -57,10 +57,10 @@ RM = /home/lemmy/Documents/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples
+CMAKE_SOURCE_DIR = /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

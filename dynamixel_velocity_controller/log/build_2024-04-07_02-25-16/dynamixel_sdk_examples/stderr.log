@@ -1,0 +1,17 @@
+In file included from [01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:11[m[K:
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/include/read_write_node.hpp:40:30:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+   40 |   rclcpp::Service<GetVelocity[01;31m[K>>[m[K::SharedPtr get_velocity_server_;
+      |                              [01;31m[K^~[m[K
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:[m[K In lambda function:
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:127:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct dynamixel_sdk_custom_interfaces::srv::GetVelocity_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct dynamixel_sdk_custom_interfaces::srv::GetVelocity_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kvelocity[m[K’; did you mean ‘[01m[Kvelocities[m[K’?
+  127 |                 response->[01;31m[Kvelocity[m[K = present_velocity;
+      |                           [01;31m[K^~~~~~~~[m[K
+      |                           [32m[Kvelocities[m[K
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:[m[K In constructor ‘[01m[KReadWriteNode::ReadWriteNode()[m[K’:
+[01m[K/home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node.cpp:130:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_velocity_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_velocity_subscriber_[m[K’?
+  130 |     [01;31m[Kget_velocity_server_[m[K = create_service<GetVelocity>("get_velocity", get_present_velocity);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kset_velocity_subscriber_[m[K
+gmake[2]: *** [CMakeFiles/read_write_node.dir/build.make:76: CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/read_write_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

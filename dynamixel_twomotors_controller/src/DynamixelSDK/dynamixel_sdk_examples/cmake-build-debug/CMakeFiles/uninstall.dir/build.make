@@ -53,10 +53,10 @@ RM = /home/lemmy/Documents/clion/bin/cmake/linux/aarch64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples
+CMAKE_SOURCE_DIR = /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug /home/lemmy/robotis_ws/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug /home/lemmy/Github/Mobile_robot/dynamixel_twomotors_controller/src/DynamixelSDK/dynamixel_sdk_examples/cmake-build-debug/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
